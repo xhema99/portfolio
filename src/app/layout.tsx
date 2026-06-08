@@ -28,7 +28,8 @@ export const metadata: Metadata = {
   title: "José María Pinilla Melgar | El Codex — Creando Sistemas Inteligentes",
   description: "Portfolio de José María Pinilla Melgar. Creador de sistemas inteligentes. RAG, ingeniería de datos y desarrollo full-stack.",
   icons: {
-    icon: "/favicon.png",
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
   },
   openGraph: {
     title: "José María Pinilla Melgar | El Codex",
